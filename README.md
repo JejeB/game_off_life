@@ -10,5 +10,5 @@ cmake --build build
 Then run the game 
 
 ```
-game_of_life --input initial.txt --iterations 2000
+./build/game_of_life --input testcase/test.txt --iterations 20 --all
 ```
